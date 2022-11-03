@@ -1,0 +1,1 @@
+const width = document.getElementsById('hover-animation')
