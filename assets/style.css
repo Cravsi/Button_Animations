@@ -3,7 +3,7 @@ body {
     background-color: whitesmoke;
 }
 
-.button {
+.buttons {
     display: grid;
     grid-template-columns: auto auto auto;
     align-items: center;
@@ -27,13 +27,24 @@ body {
  .hover-animation::before {
     content: "";
     position: absolute;
-    width: 250px;
     height: 84px;
     background-color: rgb(254, 43, 188);
     border-radius: 50px;
     translate: -46px -29px;
     z-index: -1;
     transition: translate 400ms;
+ }
+
+ #btn1::before {
+    width: 160px;
+ }
+
+ #btn2::before {
+    width: 236px;
+ }
+
+ #btn3::before {
+    width: 188px;
  }
 
  .hover-animation:hover::before{
