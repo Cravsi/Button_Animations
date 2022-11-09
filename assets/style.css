@@ -63,6 +63,7 @@ main>div {
 /* ----- Button Hover Animation 2 -----*/
 
 #hvr-btn-2 {
+   margin-top: 2rem;
    display: flex;
    justify-content: center;
 }
